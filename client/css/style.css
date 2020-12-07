@@ -12,6 +12,23 @@ body{
     width: 90%;
     margin:auto;
 }
+
+.contenedor-nuevo{
+  padding-top: 50px;
+  width: 90%;
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+ }
+ .contenedor-datos{
+  width: 43%;
+ }
+.contenedor-imagen{
+  width: 33%;
+  margin-bottom: 50px;
+}
+
+
 .card-title{
     text-align: center;
 }
