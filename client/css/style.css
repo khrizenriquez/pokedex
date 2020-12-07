@@ -6,7 +6,19 @@ body{
     max-width: 1280px;
     width: 99%;
     margin:auto;
-  }
+}
+#contenedor-buscar{
+    padding-top: 50px;
+    width: 90%;
+    margin:auto;
+}
+.card-title{
+    text-align: center;
+}
+.card-body ul{
+    list-style: none;
+}
+
 #copyright{
     padding-top: 70px;
     font-size: 15px;
@@ -16,8 +28,55 @@ body{
     font-size: 15px;
     padding-top: 20px; 
 }
-/*ATRIBUCIÓN DEL ÍCONO DE PIKACHU 
-<div class="flaticon">Icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>    
+#login a{
+    background: none;
+    position: fixed;
+    top: 20%;
+    right: 15px;
+  }
+  span{
+    font-size: 30px;
+  }
+
+ 
+ /* ANIMACIONES */
+
+ .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+ 
+  /*
+
+ATRIBUCIÓN DEL ÍCONO DE PIKACHU 
+<div class="flaticon">Icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+ATRIBUCIÓN DEL ÍCONO DE LOGIN
+<div>Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 .flaticon{
     font-size: 9px;
 }
