@@ -27,8 +27,25 @@ body{
   width: 33%;
   margin-bottom: 50px;
 }
-
-
+.titulo-login{
+  width: 90%;
+  margin:auto;
+}
+.contenedor-login{
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor-credenciales{
+  width: 30%;
+}
+.linea-login{
+  border-left: thick solid #D5D8DC
+}
+.contenedor-imagen-login{
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+}
 .card-title{
     text-align: center;
 }

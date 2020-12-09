@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   </link>
-  <title>Pokedex</title>
+  <title>Login</title>
 </head>
 
-<body>
-  <div class="contenedor">
-    <header>
+<header>
+
+  <body>
+    <div class="contenedor">
       <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
           <img src="img/pikachu.png" width="30" height="30" alt="" loading="lazy"></a>
@@ -22,14 +23,13 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Pokedex</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="buscar.html">Nuevo</a>
+              <a class="nav-link" href="#">Nuevo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Login</a>
@@ -38,41 +38,50 @@
               <a class="nav-link" href="#">About</a>
             </li>
           </ul>
-
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="¡Buscar pokemón!" aria-label="Search">
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
           </form>
-
         </div>
       </nav>
-    </header>
-    <main>
-      <div class="jumbotron animated fadeIn fast">
-        <h1 class="display-4">¡Bienvenido!</h1>
-        <p class="lead">Para iniciar, busca a tu pokemón preferido.</p>
-        <hr class="my-4">
-        <p>Si quieres encontrar un pokemón sorpresa, da clic en el botón que está abajo.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">¡Sorpréndeme!</a>
-      </div>
-    </main>
 
-    <footer id="copyright">
-      <div class="contenedor">
-        <h5>Creado por:</h5>
-        <a href="#">@khrizEnriquez</a> &
-        <a href="#">@JonathHernandez</a>
-      </div>
-    </footer>
-
-    <section id="login">
-      <a href="#">
-        <img src="img/user.png" alt="Icono login">
-      </a>
-    </section>
-
+</header>
+<main>
+  <div class="titulo-login">
+    <h1 class="animated fadeIn fast">Iniciar sesión </h1>
   </div>
+  <div class="contenedor-login">
+    <div class="contenedor-credenciales">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Usuario</label>
+          <input type="text" class="form-control" id="txtUsuario"   >
 
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="txtContrasenia">
+        </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
+    </div>
+    <div class="linea-login"></div>
+    <div class="contenedor-imagen-login">
+      <img src="img/pikachu.png" alt="Imagen login">
+      <h5>¡Ingresa a Pokedex!</h5>
+    </div>
+  </div>
+</main>
+<footer>
+  <section id="copyright">
+    <div class="contenedor">
+      <h5>Creado por:</h5>
+      <a href="#">@khrizEnriquez</a> &
+      <a href="#">@JonathHernandez</a>
+    </div>
+  </section>
+</footer>
+</div>
 </body>
 
 </html>
