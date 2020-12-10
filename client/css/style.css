@@ -12,13 +12,16 @@ body{
     width: 90%;
     margin:auto;
 }
-
 .contenedor-nuevo{
   padding-top: 50px;
   width: 90%;
   margin:auto;
   display: flex;
   justify-content: space-around;
+ }
+ .titulo-nuevo{
+  width: 90%;
+  margin:auto;
  }
  .contenedor-datos{
   width: 43%;
@@ -52,7 +55,40 @@ body{
 .card-body ul{
     list-style: none;
 }
+.titulo-about{
+  margin:auto;
+  width: 90%;
+}
+.container-about {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.about-left {
+  width: 35%;
+ }
+.about-right{
+  width: 35%;
+}
+.container {
+  padding: 30px 16px;
+}
+.card-about {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card-about:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
+.contenedor-carta-uno{
+  width: 40%;
+}
+.contenedor-carta-dos{
+  width: 40%;
+}
 #copyright{
     padding-top: 70px;
     font-size: 15px;
